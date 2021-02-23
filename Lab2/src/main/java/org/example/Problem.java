@@ -11,6 +11,7 @@ public class Problem {
         Destination D1 = new Destination("D1", 20);
         Destination D2 = new Destination("D2", 25);
         Destination D3 = new Destination("D3", 25);
+        //fac un arraylist pentru supply si demand, am procedat in acest mod pentru a avea cat mai bine structurate obiectele
         List<Source> sources = new ArrayList<>();
         List<Destination> destinationList = new ArrayList<>();
         sources.add(S1);
@@ -25,7 +26,7 @@ public class Problem {
 
 
     }
-
+//fac matricea de cost din exemplu
     public void initMatrix(Integer[][] costMatrix) {
         costMatrix[0][0] = 2;
         costMatrix[0][1] = 3;
@@ -37,7 +38,7 @@ public class Problem {
         costMatrix[2][1] = 6;
         costMatrix[2][2] = 8;
     }
-
+// afisez tabelul cu rezultatele apleand arraylistul cu obiectele cat si matricea de cost
     public void solveExample(Integer[][] a, List<Source> sources, List<Destination> destination) {
         System.out.println("  " + destination.get(0).getName() + " " + destination.get(1).getName() + " " + destination.get(2).getName() + " Supply");
         for (int i = 0; i <= 2; i++) {
