@@ -1,5 +1,5 @@
 package org.example;
-
+//settere si gettere + toString(), identificatorii de acces corespunzatori
 public class Destination {
     private String name;
     private Integer comodityDemands;
