@@ -1,5 +1,5 @@
 package org.example;
-
+// settere+gettere+toString() si am protejat informatiile cu identificatorii de acces 
 public class Source {
     private String name;
     private SourceType type;
