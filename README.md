@@ -1,7 +1,11 @@
 # Programare-Avansata
-
-
 Lab2-> este facut doar compulsory-ul deocamdata
+-> Clasa City, Hotel, Museum, Church,Restaurant,Location
+-> interfata Payable, Visitable, Classifiable
+-> clasele interfata sunt incluse dupa nevoie in clasele de tip
+
+
+Lab2-> este facut doar compulsory-ul 
 
 -am creat clasele Sourcetype(enum),Source,Destination si Problem;
 
