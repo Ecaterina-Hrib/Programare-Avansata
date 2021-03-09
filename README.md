@@ -1,4 +1,8 @@
 # Programare-Avansata
+
+Lab4-> compulsory-ul deocamdata, am creat clasa Student si SChool si am folosit streamurile si lambda-urile pentru a initializa obiectele cat si a le manipula, am folosit LinkedList, cat si 2 ,mapuri pentru a afisa datele din obiectele School si Student
+
+
 Lab3-> este facut doar compulsory-ul + optionalul
 -> Clasa City, Hotel, Museum, Church,Restaurant,Location
 -> interfata Payable, Visitable, Classifiable
