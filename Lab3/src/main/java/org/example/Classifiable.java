@@ -1,4 +1,7 @@
 package org.example;
-// interfata Classifiable
+/**
+*<p>Interfata Classifiable</p>
+*/
 public interface Classifiable {
+    int getStars();
 }
