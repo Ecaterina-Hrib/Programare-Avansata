@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * <p>Clasa Item ce contine un fisier de de tip diferit, cu calea, numele si tip de fisier</p>
  */
-public class Item {
+public abstract class Item {
     private String name;
     private File file;
     private Path path;
