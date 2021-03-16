@@ -1,5 +1,9 @@
 # Programare-Avansata
 
+Lab5->compulsory, clasa Catalog ce retine un array de Itemuri pentru fisiere
+-am facut o interfata pentru Catalog unde sunt declarate metodele pentru comenzi, clasa Item unde sunt stocate fisierele de diferite tipuri
+
+
 Lab4-> compulsory-ul deocamdata, am creat clasa Student si SChool si am folosit streamurile si lambda-urile pentru a initializa obiectele cat si a le manipula, am folosit LinkedList, cat si 2 ,mapuri pentru a afisa datele din obiectele School si Student
 
 
