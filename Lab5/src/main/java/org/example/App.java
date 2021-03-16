@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.nio.file.Paths;
 /**
- * <p>Am formatat 2 ietmuri, le-am adaugat in catalog apoi am facut operatii de tip catalog pe ele</p>
+ * <p>Am declarat si initializat 2 itemuri tip poza, le-am adaugat in catalog apoi am facut operatii de tip catalog pe ele</p>
  *
  */
 public class App 
