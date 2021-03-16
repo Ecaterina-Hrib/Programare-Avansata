@@ -21,8 +21,10 @@ public class App
       Catalog first = new Catalog();
       first.add(item);
         first.add(item2);
+     
         first.play(0);
         first.play(1);
+        
         first.list();
 
 
