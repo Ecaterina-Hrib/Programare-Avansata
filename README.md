@@ -1,6 +1,6 @@
 # Programare-Avansata
 
-Lab5->compulsory, clasa Catalog ce retine un array de Itemuri pentru fisiere
+Lab5->compulsory, clasa Catalog ce retine un array de clasa Pictures pentru fisiere de tip poza, cat si clasa Song
 
 -am facut o interfata pentru Catalog unde sunt declarate metodele pentru comenzi, clasa Item unde sunt stocate fisierele de diferite tipuri
 
