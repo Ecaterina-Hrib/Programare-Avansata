@@ -1,19 +1,21 @@
 package org.example;
 import org.example.compulsory.Catalog;
 import org.example.compulsory.Item;
+import org.example.compulsory.Picture;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.nio.file.Paths;
 /**
- * <p>Am declarat si initializat 2 itemuri tip poza, le-am adaugat in catalog apoi am facut operatii de tip catalog pe ele</p>
+ * <p>Am formatat 2 ietmuri, le-am adaugat in catalog apoi am facut operatii de tip catalog pe ele</p>
  *
  */
 public class App 
 {
     public static void main( String[] args ) {
-        Item item = new Item();
-        Item item2 = new Item();
+        Picture item = new Picture();
+        Picture item2 = new Picture();
         item2.setName("best.jpg");
         item.setName("rota.png");
         item.setPath(Paths.get("D:\\_ user ecaaa\\Desktop"));
@@ -21,10 +23,8 @@ public class App
       Catalog first = new Catalog();
       first.add(item);
         first.add(item2);
-     
         first.play(0);
         first.play(1);
-        
         first.list();
 
 
