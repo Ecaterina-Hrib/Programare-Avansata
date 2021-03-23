@@ -1,49 +1,49 @@
-package org.example;
-import org.example.compulsory.Catalog;
-import org.example.compulsory.Item;
-import org.example.compulsory.Picture;
+package org.example.classes;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.nio.file.Paths;
-/**
- * <p>Am formatat 2 ietmuri, le-am adaugat in catalog apoi am facut operatii de tip catalog pe ele</p>
- *
- */
-public class App 
-{
-    public static void main( String[] args ) {
-        Picture item = new Picture();
-        Picture item2 = new Picture();
-        item2.setName("best.jpg");
-        item.setName("rota.png");
-        item.setPath(Paths.get("D:\\_ user ecaaa\\Desktop"));
-        item2.setPath(Paths.get("D:\\_ user ecaaa\\Desktop"));
-      Catalog first = new Catalog();
-      first.add(item);
-        first.add(item2);
-        first.play(0);
-        first.play(1);
-        first.list();
+import java.util.ArrayList;
+import java.util.List;
 
+public class Catalog {
+    private String name;
+    private String path;
+    private List<Item> documents = new ArrayList<>();
 
-        try {
-            FileOutputStream  out = new FileOutputStream("catalog.txt");
-            first.save(out);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        try {
-            FileInputStream in = new FileInputStream("catalog.txt");
-            first.load(in);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+    public Catalog(String name, String path) {
+        this.name = name;
+        this.path = path;
+    }
 
+    //…
+    public void add(Item doc) {
+        documents.add(doc);
+    }
 
+    public Item findById(String id) {
+        return documents.stream()
+                .filter(d -> d.getId().equals(id)).findFirst().orElse(null);
+    }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public List<Item> getDocuments() {
+        return documents;
+    }
+
+    public void setDocuments(List<Item> documents) {
+        this.documents = documents;
     }
 }
