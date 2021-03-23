@@ -1,6 +1,12 @@
 # Programare-Avansata
 
-Lab5->compulsory, clasa Catalog ce retine un array de clasa Pictures pentru fisiere de tip poza, cat si clasa Song
+Lab6-> compulsory
+
+-clasa MainFrame, ConfigPanel,DrawingPanel,ControlPanel & RelgularPoygon
+
+Lab5->compulsory+ 1/2 OPTIONAL 
+
+-clasa Catalog ce retine un array de clasa Pictures pentru fisiere de tip poza, cat si clasa Song
 
 -am facut o interfata pentru Catalog unde sunt declarate metodele pentru comenzi, clasa Item unde sunt stocate fisierele de diferite tipuri
 
