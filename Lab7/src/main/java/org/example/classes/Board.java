@@ -2,7 +2,7 @@ package org.example.classes;
 import java.util.ArrayList;
 import java.util.List;
 /*
- * <p>Tbla de joc cu numarul de tokenuri</p>
+ * <p>Tabla de joc cu numarul de tokenuri</p>
  */
 public class Board {
     private List<Token> tlist;
