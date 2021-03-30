@@ -1,14 +1,14 @@
-package org.example.classes;
+package com.company;
 
 import javax.swing.*;
 
-import javax.swing.JLabel;
-
 public class ConfigPanel extends JPanel {
     final MainFrame frame;
-    JLabel label;
+    JLabel sidesLabel1; // we’re drawing regular polygons
+    JLabel sidesLabel2;
     JSpinner sidesField;
-    JComboBox colorCombo;
+    JSpinner sidesField2; // number of sides
+    JComboBox colorCombo; // the color of the shape
 
     public ConfigPanel(MainFrame frame) {
         this.frame = frame;
@@ -17,16 +17,17 @@ public class ConfigPanel extends JPanel {
 
     private void init() {
         //create the label and the spinner
-        label = new JLabel("Number of sides:");
+        sidesLabel1 = new JLabel("Number of shapes:");
         sidesField = new JSpinner(new SpinnerNumberModel(0, 0, 100, 1));
-        sidesField.setValue(6); //default number of sides
+        sidesField.setToolTipText("Square"); //default number of sides
+
         //create the colorCombo, containing the values: Random and Black
+        String Shapes[] = {"Circle","Square", "Rectangle"};
         String colors[] = {"Random", "Black"};
         colorCombo = new JComboBox(colors);
-        add(label); //JPanel uses FlowLayout by default
+
+        add(sidesLabel1); //JPanel uses FlowLayout by default
         add(sidesField);
         add(colorCombo);
-
     }
-
 }
