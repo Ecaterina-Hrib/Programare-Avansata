@@ -1,10 +1,14 @@
 # Programare-Avansata
+Lab7-> compulsory 
+- am creat clasa Player, Board, Game si Token
+- intr-un game sunt playeri carora li se asigneaza un Board
+- in Board se afla este lista de tokenuri
 
-Lab6-> compulsory
+Lab6-> compulsory + 1/2 optional (shapes + config shapes, and delete last shape)
 
 -clasa MainFrame, ConfigPanel,DrawingPanel,ControlPanel & RelgularPoygon
 
-Lab5->compulsory+ 1/2 OPTIONAL 
+Lab5->compulsory+ 1/2 optional 
 
 -clasa Catalog ce retine un array de clasa Pictures pentru fisiere de tip poza, cat si clasa Song
 
