@@ -1,5 +1,6 @@
 package org.example.classes;
-
+import java.util.ArrayList;
+import java.util.List; 
 public class Token {
     private int number;
     private boolean isBlank;
