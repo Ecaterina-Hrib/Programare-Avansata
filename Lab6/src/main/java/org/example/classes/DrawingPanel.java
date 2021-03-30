@@ -1,15 +1,19 @@
-package org.example.classes;
+package com.company;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 import java.util.Random;
+
 
 public class DrawingPanel extends JPanel {
     final MainFrame frame;
     final static int W = 800, H = 600;
+
+
     BufferedImage image; //the offscreen image
     Graphics2D graphics; //the "tools" needed to draw in the image
 
@@ -26,6 +30,7 @@ public class DrawingPanel extends JPanel {
         graphics.fillRect(0, 0, W, H);
     }
 
+    //...NEXT SLIDE
     private void init() {
         setPreferredSize(new Dimension(W, H)); //don’t use setSize. Why?
         setBorder(BorderFactory.createEtchedBorder()); //for fun
@@ -34,10 +39,11 @@ public class DrawingPanel extends JPanel {
             public void mousePressed(MouseEvent e) {
                 drawShape(e.getX(), e.getY());
                 repaint();
-            } //Can’t use lambdas, JavaFX does a better job in these cases
+            }//Can’t use lambdas, JavaFX does a better job in these cases
         });
         repaint();
         paintComponent(graphics);
+
     }
 
     private void drawShape(int x, int y) {
@@ -52,12 +58,13 @@ public class DrawingPanel extends JPanel {
         graphics.draw(new RegularPolygon(x, y, radius, sides));
         graphics.fill(new RegularPolygon(x, y, radius, sides));
         update(graphics);
+
     }
 
     @Override
     public void update(Graphics g) {
         repaint();
-    }
+    } //Why did I do that?
 
     @Override
     protected void paintComponent(Graphics g) {
@@ -65,5 +72,8 @@ public class DrawingPanel extends JPanel {
         g.drawImage(image, 0, 0, this);
         frame.setVisible(true);
     }
+    public void deleteShape(Graphics g)
+    {
 
+    }
 }
