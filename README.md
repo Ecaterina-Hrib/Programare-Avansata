@@ -1,4 +1,10 @@
 # Programare-Avansata
+Lb 8 -> compulsory 1/2
+- clasele Movie cu Genre
+- conexiunea cu baza de date
+- am folosit PostgresSQL
+
+
 Lab7-> compulsory 
 - am creat clasa Player, Board, Game si Token
 - intr-un game sunt playeri carora li se asigneaza un Board
