@@ -8,7 +8,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+//Repository se ocupa cu manage la o tabela legat de un entity si aici se fac operatiiunile sql pe baza de date
 public class MovieRepository {
     Database database = Database.getInstance();
     Connection conn = database.getConnection();
