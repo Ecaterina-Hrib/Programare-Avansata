@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.util.List;
 import com.opencsv.*;
 import org.example.controller.MoviesController;
-
+//Dataset se ocupa cu prelucrarea datelor din fiserul .csv si impreuna cu libraria open csv le include in baza de date locala
 public class Dataset {
     public Dataset() {
     }
@@ -43,52 +43,5 @@ public class Dataset {
             e.printStackTrace();
         }
     }
-    public void readAllDataAtOnce(String file)
-    {
-        try {
-
-            FileReader filereader = new FileReader(file);
-            CSVReader csvReader = new CSVReaderBuilder(filereader)
-                    .withSkipLines(1)
-                    .build();
-            List<String[]> allData = csvReader.readAll();
-
-            for (String[] row : allData) {
-                for (String cell : row) {
-                    System.out.print(cell + "\t");
-                }
-                System.out.println();
-            }
-        }
-        catch (Exception e) {
-            e.printStackTrace();
-        }
+  
     }
-    public  void readDataFromCustomSeperator(String file)
-    {
-        try {
-
-            FileReader filereader = new FileReader(file);
-
-            CSVParser parser = new CSVParserBuilder().withSeparator(';').build();
-
-            CSVReader csvReader = new CSVReaderBuilder(filereader)
-                    .withCSVParser(parser)
-                    .build();
-
-            // Read all data at once
-            List<String[]> allData = csvReader.readAll();
-
-            // print Data
-            for (String[] row : allData) {
-                for (String cell : row) {
-                    System.out.print(cell + "\t");
-                }
-                System.out.println();
-            }
-        }
-        catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
