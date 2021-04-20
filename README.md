@@ -1,8 +1,18 @@
 # Programare-Avansata
-Lb 8 -> compulsory 1/2
+Lab9-> compulsory
+- am folosit hibernate si facut persistence.xml
+- am facut entity classes
+- singleton pt EntityManagerFactory object
+- repositories classes
+
+Lab 8 -> optional + compulsory 
+- pentru bonus, in plus am extins baza de date movies, pentru a aduga mai multe fielduri din csv, si am modificat si Model, cat si Controllerul
+- am folosit opencsv ca librarie pentru manipularea datelor si adaugarea lor inj baza de date locala
+- am adaugat tabbele pentru Directori si Actori
+- am facut orientat model cu Modele si Controllere 
 - clasele Movie cu Genre
 - conexiunea cu baza de date
-- am folosit PostgresSQL
+- am folosit Oracle localhost
 
 
 Lab7-> compulsory 
