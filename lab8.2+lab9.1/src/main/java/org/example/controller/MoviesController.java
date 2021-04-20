@@ -6,7 +6,7 @@ import org.example.repo.MovieRepository;
 import java.io.FileNotFoundException;
 import java.sql.Connection;
 import java.sql.SQLException;
-
+// Controllers pentru functii din repository pentru manage de entity
 public class MoviesController {
     Database database = Database.getInstance();
     Connection conn=this.database.getConnection();
