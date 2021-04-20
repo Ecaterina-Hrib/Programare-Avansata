@@ -6,7 +6,7 @@ import org.example.repo.ActorRepository;
 import java.io.FileNotFoundException;
 import java.sql.Connection;
 import java.sql.SQLException;
-
+// Controllers pentru functii din repository pentru manage de entity
 public class ActorsController {
     Database database = Database.getInstance();
     Connection conn;
