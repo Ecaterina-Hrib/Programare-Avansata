@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+//Database face conexiunea la baza de date locala
 public class Database {
 
     private static Database instance;
