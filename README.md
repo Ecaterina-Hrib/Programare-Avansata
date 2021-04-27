@@ -1,5 +1,6 @@
 # Programare-Avansata
 Lab 10-> compulsory
+-in folderul lab 10 sunt 2 variante de proiect
 - in primul folder am creat 2 proj application dar pt git le-am integrat in unul <3
 - in al doilea folder am pus 2 cu 2 proj application, nu am stiut pe care sa le pun si le-am pus pe ambele
 - am creat proj Server ce face apel la clientii pe diferite threaduri folosind algoritmul TCP prezentat in curs
