@@ -1,5 +1,13 @@
 # Programare-Avansata
-Lab9-> compulsory
+Lab 10-> compulsory
+- in primul folder am creat 2 proj application dar pt git le-am integrat in unul <3
+- in al doilea folder am pus 2 cu 2 proj application, nu am stiut pe care sa le pun si le-am pus pe ambele
+- am creat proj Server ce face apel la clientii pe diferite threaduri folosind algoritmul TCP prezentat in curs
+- la fel am procedat si pentru proj Client ce comunica cu client Socket 
+- comanda exit
+
+
+Lab 9-> compulsory
 - am folosit hibernate si facut persistence.xml
 - am facut entity classes
 - singleton pt EntityManagerFactory object
@@ -21,14 +29,11 @@ Lab7-> compulsory
 - in Board se afla este lista de tokenuri
 
 Lab6-> compulsory + 1/2 optional (shapes + config shapes, and delete last shape)
-
--clasa MainFrame, ConfigPanel,DrawingPanel,ControlPanel & RelgularPoygon
+- clasa MainFrame, ConfigPanel,DrawingPanel,ControlPanel & RelgularPoygon
 
 Lab5->compulsory+ 1/2 optional 
-
--clasa Catalog ce retine un array de clasa Pictures pentru fisiere de tip poza, cat si clasa Song
-
--am facut o interfata pentru Catalog unde sunt declarate metodele pentru comenzi, clasa Item unde sunt stocate fisierele de diferite tipuri
+- clasa Catalog ce retine un array de clasa Pictures pentru fisiere de tip poza, cat si clasa Song
+- am facut o interfata pentru Catalog unde sunt declarate metodele pentru comenzi, clasa Item unde sunt stocate fisierele de diferite tipuri
 
 
 Lab4-> compulsory-ul deocamdata, am creat clasa Student si SChool si am folosit streamurile si lambda-urile pentru a initializa obiectele cat si a le manipula, am folosit LinkedList, cat si 2 ,mapuri pentru a afisa datele din obiectele School si Student
