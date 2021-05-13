@@ -1,6 +1,20 @@
 # Programare-Avansata
-Lab 10-> compulsory
--in folderul lab 10 sunt 2 variante de proiect
+
+Lab 11-> compulsory
+- am creat proiectul in Spring Boot
+- am creat userul
+- am facut pentru acesta un rest controller, un serviciu, si un model
+- am urmat protocolul http si am facut operatii pe user de GET,PUT,POST si DELETE
+- am testat si in Postman actiunile pe resurse
+
+
+Lab 10-> compulsory + optional
+- pentru optional am facut un folder diferit, deoarece am mers pe alta arhitectura
+- am facut aplicatia orientata pe obiect, cu Theduri pentru client, model pentru client, unde se stocheaza difeite mesaje/ prieteni
+- am facut comanda de stop de shutdown la server
+- am implementat comenzile login, register,logout,read,send
+- am setat pe server un timeout de inactivitate de 18000 secunde si acesta se inchide la numarul de secunde 
+- in folderul lab 10 sunt 2 variante de proiect
 - in primul folder am creat 2 proj application dar pt git le-am integrat in unul <3
 - in al doilea folder am pus 2 cu 2 proj application, nu am stiut pe care sa le pun si le-am pus pe ambele
 - am creat proj Server ce face apel la clientii pe diferite threaduri folosind algoritmul TCP prezentat in curs
