@@ -1,4 +1,4 @@
-Compulsory + optional
+Optional
 
 - am creat tabela friends
 - am creat o clasa entitate, un repository, un serviciu si un controller pentru functionalitatea de relationship/friendship
