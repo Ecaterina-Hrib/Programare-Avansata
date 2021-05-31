@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">appstart</string>
+    <string name="enter_name_text_view">Enter your name:</string>
+    <string name="enter_send_btn">Enter</string>
+    <string name="the_calling_activity_message">The calling activity was:</string>
+    <string name="get_name_text_view">get_name</string>
+    <string name="user_name_sent_back">username_sent_back</string>
+</resources>
