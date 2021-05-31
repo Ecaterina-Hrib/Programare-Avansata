@@ -1,4 +1,12 @@
 # Programare-Avansata
+Lab13-> compulsory
+
+- package for resource 
+- package com for the DisplayLocales, SetLocale, Information
+- language tag with information
+- class App for LocaleExplore
+- translation
+
 Lab12-> Compulsory
 
 - inputul este hardcodat si este pus dintr-o oarecare locatie din file system
